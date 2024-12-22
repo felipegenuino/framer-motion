@@ -10,6 +10,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "kitchen-beige": "#F5F0E1",
+        "kitchen-wood": "#C19A6B",
+        "kitchen-green": "#8E8B7A",
       },
     },
   },

@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-export default function Home() {
+export default function introduction() {
   const [isEnabled, setIsEnabled] = useState(true);
   return (
     <section className=" overflow-hidden flex flex-col items-center justify-center h-dvh bg-gray-900 text-gray-800">
