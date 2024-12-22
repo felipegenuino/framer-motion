@@ -23,7 +23,7 @@ export default function ScrollProgress() {
   }, [scrollYProgress]);
 
   return (
-    <section className="h-[200vh] bg-gray-900 text-white relative">
+    <section className="_h-[200vh] bg-gray-900 text-white relative">
       {/* Barra de Progresso */}
       <motion.div
         style={{ scaleX: scrollYProgress }}
@@ -44,6 +44,10 @@ export default function ScrollProgress() {
       <div className="text-center pt-10">
         <p className="text-lg">Role para ver o progresso na barra superior!</p>
       </div>
+
+      <div className="h-dvh  bg-yellow-950"> oi</div>
+
+      <div className="h-dvh  bg-yellow-550"> oi</div>
     </section>
   );
 }
